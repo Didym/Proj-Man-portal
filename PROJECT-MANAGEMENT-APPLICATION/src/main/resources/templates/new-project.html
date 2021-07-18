@@ -15,7 +15,7 @@
 <body>
 
 <div class = "container">
-	<form action="/projects/save" method="post">	
+	<form action="/projects/save" th:object="${}" method="post">	
 	<input type="text" placeholder="Project Name">
 	
 	<select>
