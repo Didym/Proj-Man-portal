@@ -21,12 +21,14 @@
 			<tr>
 				<th>Project Name</th>
 				<th>Project Stage</th>
+				<th>Project Description</th>
 			</tr>
 	</thead>
 	<tbody>
-	<tr th:each="aProjectik : ${projectS}">
-			<td th:text = "$aProjectik.name">
-			<td th:text="$aProjectik.stage">
+	<tr th:each="aProjectik : ${projectsList}">
+			<td th:text = "${aProjectik.name}">
+			<td th:text="${aProjectik.stage}">
+			<td th:text ="${aProjectik.description}" >
 	</tr>
 	</tbody>
 	
