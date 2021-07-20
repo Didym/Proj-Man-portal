@@ -1,4 +1,4 @@
-package com.proma.pma.controllers;
+package com.proma.pma.dao;
 
 import org.springframework.data.repository.CrudRepository;
 
